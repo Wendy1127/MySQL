@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 3.1415926 AS `pi`
+md5=5ae940473494babd59bae91f836e6c10
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2017-12-05 07:13:37
+create-version=1
+source=select 3.1415926 as pi
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 3.1415926 AS `pi`

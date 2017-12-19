@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `ca2`.`payment`.`payment_id` AS `payment_id`,`ca2`.`payment`.`amount` AS `amount` from `ca2`.`payment` where (`ca2`.`payment`.`amount` < 10)
+md5=f8e5083c6f5e3c56bb2f53227c45165c
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=2
+timestamp=2017-12-05 08:07:32
+create-version=1
+source=select payment_id,amount from payment\nwhere amount<10 with check option
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `ca2`.`payment`.`payment_id` AS `payment_id`,`ca2`.`payment`.`amount` AS `amount` from `ca2`.`payment` where (`ca2`.`payment`.`amount` < 10)
